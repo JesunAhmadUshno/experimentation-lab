@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-and-reproduce:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install pinned dependencies
+        run: pip install -e ".[dev]"
+      - name: Unit tests
+        run: pytest -q
+      - name: Reproduction (regenerate and diff all generated outputs)
+        run: |
+          cp RESULTS.md /tmp/RESULTS.committed.md
+          cp reports/VERDICT.md /tmp/VERDICT.committed.md
+          cp prereg/split.json /tmp/split.committed.json
+          python -m explab.fetch
+          python -m explab.power
+          python -m explab.peeking
+          python -m explab.guardrails
+          python -m explab.primary dev
+          python -m explab.causal
+          python -m explab.stress
+          python -m explab.label score
+          python -m explab.primary locked
+          python -m explab.report
+          python prereg/make_split.py
+          diff /tmp/split.committed.json prereg/split.json
+          diff /tmp/RESULTS.committed.md RESULTS.md
+          diff /tmp/VERDICT.committed.md reports/VERDICT.md
