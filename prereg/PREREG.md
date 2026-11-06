@@ -107,4 +107,16 @@ One command, `make reproduce`, on a clean machine: installs pinned dependencies,
 None at lock time.
 
 Amendment log (append-only):
-- (empty)
+- A1 (2026-11-06, before any outcome column was read): E1 operationalization and E2 date column. See the amendment text at the end of this file.
+
+## Amendment A1 (2026-11-06)
+
+Recorded before any outcome column (`clicks`) was read. At the time of this amendment, the only data access was: the file's SHA-256 check, its header (column names), its row count, and the `clickability_test_id` column used by the split generator.
+
+Finding: the exploratory file on OSF (version 03.12.2020) has 17 columns and no `problem` column. Its columns are: created_at, updated_at, clickability_test_id, excerpt, headline, lede, slug, eyecatcher_id, impressions, clicks, significance, first_place, winner, share_text, square, test_week (plus a leading row index).
+
+Basis: the archive team's Author Correction (Scientific Data 2024, DOI 10.1038/s41597-024-03600-w) states that the `problem` dummy was constructed for the tests of the window 2013-06-25 to 2014-01-10, that 7,004 tests (22 percent) may have been affected, and recommends that researchers "omit all experiments from June 25, 2013 through the end of January 10, 2014". The correction also states the variable was added to the main datafile; the OSF exploratory file predates the correction and does not carry it.
+
+Ruling: E1 is implemented as the window exclusion E2. The two remove the same tests under the correction's definition, and the window form is the archive team's own recommended treatment. Guardrail G1 reports the window exclusion counts (tests and rows removed) as the problem-exclusion counts. If a future version of the exploratory file carries a real `problem` column, a further amendment will reconcile the two before any re-analysis.
+
+E2 date column: the test date is the minimum `created_at` value among the test's packages in the file (the first package created). This is the fallback PREREG section 7 already allowed; it is recorded here and in RESULTS.md and AUDIT.md.
