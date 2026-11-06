@@ -1,0 +1,35 @@
+{
+ "ci90_log_or": [
+  -0.1762,
+  -0.115
+ ],
+ "ci95_log_or": [
+  -0.1821,
+  -0.1091
+ ],
+ "ci95_odds_ratio": [
+  0.8335,
+  0.8966
+ ],
+ "exclusion_counts_full_file": {
+  "rows_dropped_window": 4251,
+  "rows_dropped_zero_impressions": 0,
+  "rows_kept": 18415,
+  "rows_total": 22666,
+  "tests_dropped_window": 1044,
+  "tests_kept": 3829,
+  "tests_total": 4873
+ },
+ "i2_percent": 75.7626,
+ "log_or": -0.1456,
+ "n_tests": 465,
+ "odds_ratio": 0.8645,
+ "se": 0.0186,
+ "split": "locked",
+ "tau": 0.3325,
+ "tau2": 0.1106,
+ "tests_continuity_corrected": 0,
+ "tests_dropped_negative_nonclicks": 0,
+ "verdict": "CONFIRMED",
+ "verdict_branch": "ci95_excludes_0"
+}

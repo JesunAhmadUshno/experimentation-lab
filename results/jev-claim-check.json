@@ -1,0 +1,11 @@
+{
+ "gate": "claim_check",
+ "route": "REVIEW",
+ "noul": 0.81,
+ "model": "jev-1.13.0",
+ "input_tokens": 936,
+ "output_tokens": 21,
+ "bands": "clear at 0.85+, block at 0.10 or below, review between",
+ "claim": "Does the evidence fully support this claim, with no part going beyond the evidence? Claim: In the locked confirmatory split of the Upworthy Research Archive exploratory data (465 eligible randomized tests), question headlines were associated with a pooled odds ratio of 0.8645 for clicks versus non-question headlines in the same tests (95% CI 0.8335 to 0.8966, random-effects meta-analysis of within-test log odds ratios). Under the verdict rule frozen before the data was touched, the verdict is CONFIRMED.",
+ "hand_verification": "On the REVIEW route the claim was hand-verified: the pooled estimate was recomputed independently from results/per_test_locked.csv (465 rows, no explab code) and matches results/primary_locked.json (log OR -0.1456, OR 0.8645, 95% CI 0.8335 to 0.8966); the verdict follows the frozen rule (n 465 >= 190, CI95 excludes 0)."
+}
