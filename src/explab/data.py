@@ -22,7 +22,7 @@ DEFAULT_SPLIT = "prereg/split.json"
 
 def load_raw(path=DEFAULT_DATA):
     df = pd.read_csv(path, dtype={"clickability_test_id": str})
-    df["created_at"] = pd.to_datetime(df["created_at"])
+    df["created_at"] = pd.to_datetime(df["created_at"], format="mixed")
     return df
 
 

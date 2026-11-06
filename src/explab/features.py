@@ -84,7 +84,7 @@ def sentiment_score(headline):
 def build_covariates(df):
     """df: package rows (one split, exclusions applied, labels added)."""
     out = df.copy()
-    weeks = pd.to_datetime(out["test_week"])
+    weeks = pd.to_datetime(out["test_week"], format="mixed")
     out["test_week_num"] = (weeks - weeks.min()).dt.days / 7.0
     out["headline_len"] = out["headline"].fillna("").str.len().astype(float)
     out["sentiment"] = out["headline"].map(sentiment_score)
