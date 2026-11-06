@@ -1,0 +1,1205 @@
+{
+ "seed": 20261106,
+ "sample": [
+  {
+   "sample_index": 0,
+   "group": "question",
+   "clickability_test_id": "52e07978539305589c000001",
+   "headline": "Ever Wonder Why It's Hard To Eat Just One French Fry?"
+  },
+  {
+   "sample_index": 1,
+   "group": "question",
+   "clickability_test_id": "531cdf42a444092188000022",
+   "headline": "Calling Girls This Word May Seem Harmless \u2014 But Why Are Boys Never Called It?"
+  },
+  {
+   "sample_index": 2,
+   "group": "question",
+   "clickability_test_id": "53cffe28541edff5b1000087",
+   "headline": "Slavery Is Illegal Basically Everywhere, So Why Does It Exist Basically Everywhere?"
+  },
+  {
+   "sample_index": 3,
+   "group": "question",
+   "clickability_test_id": "533ae2d3782bd78a77000043",
+   "headline": "Out Of All The Silliest Sex Bans Some States Have, Which One Is The Most Ridiculous? Or Harmful?"
+  },
+  {
+   "sample_index": 4,
+   "group": "question",
+   "clickability_test_id": "5398737573acb62fca000031",
+   "headline": "A Thin, White Model Says She's Not Represented In The Media ... Am I The Only One Confused?"
+  },
+  {
+   "sample_index": 5,
+   "group": "question",
+   "clickability_test_id": "5150d085697351000200426d",
+   "headline": "What\u2019s This Woman Looking So Insanely Happy About?"
+  },
+  {
+   "sample_index": 6,
+   "group": "question",
+   "clickability_test_id": "53f4d5414090373287000006",
+   "headline": "What Are The Top 3 Ways To Die In Your Part Of The World?"
+  },
+  {
+   "sample_index": 7,
+   "group": "question",
+   "clickability_test_id": "54496bfb3d38bb487a000084",
+   "headline": "Your Job Security Might Depend Upon Who You Date. You Are Safe In California. How's Your State?"
+  },
+  {
+   "sample_index": 8,
+   "group": "question",
+   "clickability_test_id": "533ae2d3782bd78a77000043",
+   "headline": "Out Of All The Silliest Sex Bans Some States Have, Which One Is The Most Ridiculous? Or Harmful?"
+  },
+  {
+   "sample_index": 9,
+   "group": "question",
+   "clickability_test_id": "531ccaf0a44409c409000026",
+   "headline": "Calling Girls This Word May Seem Harmless \u2014 But Why Are Boys Never Called It?"
+  },
+  {
+   "sample_index": 10,
+   "group": "question",
+   "clickability_test_id": "54737147d289f68ac400001a",
+   "headline": "I Couldn't Help But Think: What If I Watched This Video And Didn't Recognize Anyone?"
+  },
+  {
+   "sample_index": 11,
+   "group": "question",
+   "clickability_test_id": "54209e801afbe83d40000045",
+   "headline": "What\u2019s The Difference Between 2 Cats And Too Many Cats?"
+  },
+  {
+   "sample_index": 12,
+   "group": "question",
+   "clickability_test_id": "53cff55ce54a0fb9bb000064",
+   "headline": "Can You Handle The Truth About Kevin Bacon?"
+  },
+  {
+   "sample_index": 13,
+   "group": "question",
+   "clickability_test_id": "53f4d5414090373287000006",
+   "headline": "What Are The Top 3 Ways To Die In Your Part Of The World?"
+  },
+  {
+   "sample_index": 14,
+   "group": "question",
+   "clickability_test_id": "5344c1b11369913b6800004c",
+   "headline": "An Old Anti-Drug Ad Gets Remade To Fit A Bigger Problem. It Involves Our Daughters And Chickens?"
+  },
+  {
+   "sample_index": 15,
+   "group": "question",
+   "clickability_test_id": "5473675b109cd613f700000a",
+   "headline": "He Managed To Get A Projector Into The Ebola Ward. Guess What Movie He Played For The Patients?"
+  },
+  {
+   "sample_index": 16,
+   "group": "question",
+   "clickability_test_id": "53cff55ce54a0fb9bb000064",
+   "headline": "Can You Handle The Truth About Kevin Bacon?"
+  },
+  {
+   "sample_index": 17,
+   "group": "question",
+   "clickability_test_id": "54529e13490f33fa51000008",
+   "headline": "Do You Kind Of Secretly Believe These 6 Myths About Climate Change?"
+  },
+  {
+   "sample_index": 18,
+   "group": "question",
+   "clickability_test_id": "54668cd76c94ae538d000031",
+   "headline": "It\u2019s A Miracle That They Keep Their Clothes On All Day, But Would You?"
+  },
+  {
+   "sample_index": 19,
+   "group": "question",
+   "clickability_test_id": "54e2337530346100286f0000",
+   "headline": "Last Week Tonight poses a great question: Why is there still a Sports Illustrated Swimsuit issue?"
+  },
+  {
+   "sample_index": 20,
+   "group": "question",
+   "clickability_test_id": "549456c63261630015300000",
+   "headline": "There's A Conversation Some Parents Are Having With Their Children. Are You?"
+  },
+  {
+   "sample_index": 21,
+   "group": "question",
+   "clickability_test_id": "535dc112786e4fdd51000022",
+   "headline": "Did You Know Being In Love Does Awesome Things To Your Brain?"
+  },
+  {
+   "sample_index": 22,
+   "group": "question",
+   "clickability_test_id": "531cdf42a444092188000022",
+   "headline": "Calling Girls This Word May Seem Harmless \u2014 But Why Are Boys Never Called It?"
+  },
+  {
+   "sample_index": 23,
+   "group": "question",
+   "clickability_test_id": "54b08de563616200150c0000",
+   "headline": "What Happens If You Try To Kill Yourself And Survive?"
+  },
+  {
+   "sample_index": 24,
+   "group": "question",
+   "clickability_test_id": "54e2337530346100286f0000",
+   "headline": "Last Week Tonight poses a great question: Why is there still a Sports Illustrated Swimsuit issue?"
+  },
+  {
+   "sample_index": 25,
+   "group": "question",
+   "clickability_test_id": "53f3800d56f73732f5000038",
+   "headline": "Would #Ferguson Have Turned Out Differently If The Original Cop Incident Had Been Recorded?"
+  },
+  {
+   "sample_index": 26,
+   "group": "question",
+   "clickability_test_id": "5150d085697351000200426d",
+   "headline": "What\u2019s This Fat Woman Looking So Insanely Happy About?"
+  },
+  {
+   "sample_index": 27,
+   "group": "question",
+   "clickability_test_id": "52fd310fd62410dcbf00005e",
+   "headline": "A Graph Showing Sexism In 2008 Can't Possibly Be The Same In 2013. Oh Wait, Is It!?"
+  },
+  {
+   "sample_index": 28,
+   "group": "question",
+   "clickability_test_id": "52eee540612cf5955e000009",
+   "headline": "Every Person On Earth Is Supposed To Have These. But What Are They Exactly?"
+  },
+  {
+   "sample_index": 29,
+   "group": "question",
+   "clickability_test_id": "54f610b232356100191d0100",
+   "headline": "There's a new way for kids to smoke cigarettes and it's totally legal. What?"
+  },
+  {
+   "sample_index": 30,
+   "group": "question",
+   "clickability_test_id": "530b6747bcec8b9819000007",
+   "headline": "We've Seen The Campaigns On Smoking And Drunk Driving, But What About Junk?"
+  },
+  {
+   "sample_index": 31,
+   "group": "question",
+   "clickability_test_id": "533ae2d3782bd78a77000043",
+   "headline": "Out Of All The Silliest Sex Bans Some States Have, Which One Is The Most Ridiculous? Or Harmful?"
+  },
+  {
+   "sample_index": 32,
+   "group": "question",
+   "clickability_test_id": "5330659aca310643da000066",
+   "headline": "Some Of The Stories About Your Food Need To Be Told. Do You Really Want To Know?"
+  },
+  {
+   "sample_index": 33,
+   "group": "question",
+   "clickability_test_id": "51a7c409318c6cc22c00bde7",
+   "headline": "I Should Only Tip For Good Service, Right?"
+  },
+  {
+   "sample_index": 34,
+   "group": "question",
+   "clickability_test_id": "5451a9f34b3f9786f8000001",
+   "headline": "Is There Any Better Way To Face Your Greatest Fears Than With Your Favorite Pop Star By Your Side?"
+  },
+  {
+   "sample_index": 35,
+   "group": "question",
+   "clickability_test_id": "53ebdf21220f801d6f000038",
+   "headline": "Yes, This Town Is Real. And Yes, It's Totally Adorable. And Maybe *Your* Town Could Learn From Them?"
+  },
+  {
+   "sample_index": 36,
+   "group": "question",
+   "clickability_test_id": "549456c63261630015300000",
+   "headline": "There's A Conversation Some Parents Are Having With Their Children. Are You?"
+  },
+  {
+   "sample_index": 37,
+   "group": "question",
+   "clickability_test_id": "54529e13490f33fa51000008",
+   "headline": "Do You Kind Of Secretly Believe These 6 Myths About Climate Change?"
+  },
+  {
+   "sample_index": 38,
+   "group": "question",
+   "clickability_test_id": "53f3800d56f73732f5000038",
+   "headline": "Would #Ferguson Have Turned Out Differently If The Original Cop Incident Had Been Recorded?"
+  },
+  {
+   "sample_index": 39,
+   "group": "question",
+   "clickability_test_id": "52e297cca03fc757a800001f",
+   "headline": "D\u2019ya Ever Think These Guys Are Just Doing It For The Attention?"
+  },
+  {
+   "sample_index": 40,
+   "group": "question",
+   "clickability_test_id": "51436074220cb800020007b0",
+   "headline": "How Many Asteroids Are Headed For Earth At This Exact Moment?"
+  },
+  {
+   "sample_index": 41,
+   "group": "question",
+   "clickability_test_id": "52fba2c919639b4552000032",
+   "headline": "Who Knew A Bottle Of Red Nail Polish Might Be Responsible For Saving Lives?"
+  },
+  {
+   "sample_index": 42,
+   "group": "question",
+   "clickability_test_id": "533ae2d3782bd78a77000043",
+   "headline": "Out Of All The Silliest Sex Bans Some States Have, Which One Is The Most Ridiculous? Or Harmful?"
+  },
+  {
+   "sample_index": 43,
+   "group": "question",
+   "clickability_test_id": "53ee048559db3f98f300000f",
+   "headline": "What Happens When Those Protecting And Serving Don't Look Like Who They're Protecting And Serving?"
+  },
+  {
+   "sample_index": 44,
+   "group": "question",
+   "clickability_test_id": "549444f23732320024420000",
+   "headline": "This Holiday Was Invented In 1965 But That Doesn't Mean It's Not Real. Okay?"
+  },
+  {
+   "sample_index": 45,
+   "group": "question",
+   "clickability_test_id": "537ee1f042275488a3000096",
+   "headline": "We Ask People Their Opinions On Whether Actual Facts Are True. Doesn't That Seem Odd To You?"
+  },
+  {
+   "sample_index": 46,
+   "group": "question",
+   "clickability_test_id": "54f610b232356100191d0100",
+   "headline": "They can't buy lotto tickets yet, but cigarettes are another story. WTF?"
+  },
+  {
+   "sample_index": 47,
+   "group": "question",
+   "clickability_test_id": "54988b05663661001b9c0000",
+   "headline": "The Story Of Solar, Told In Dollars And Cents. And Deutschmarks?"
+  },
+  {
+   "sample_index": 48,
+   "group": "question",
+   "clickability_test_id": "54668cd76c94ae538d000031",
+   "headline": "It\u2019s A Miracle That They Keep Their Clothes On All Day, But Would You?"
+  },
+  {
+   "sample_index": 49,
+   "group": "question",
+   "clickability_test_id": "539b38dfe5b96dae1a0000a0",
+   "headline": "She Was Sexually Assaulted. She Didn't Call It That, Though. Why Not?"
+  },
+  {
+   "sample_index": 50,
+   "group": "question",
+   "clickability_test_id": "52eee540612cf5955e000009",
+   "headline": "Every Person On Earth Is Supposed To Have These. But What Are They Exactly?"
+  },
+  {
+   "sample_index": 51,
+   "group": "question",
+   "clickability_test_id": "5492119d3033660021160000",
+   "headline": "In 1944, We Executed A 14-Year-Old Boy. Why Did It Take 70 Years For Us To Pardon Him?"
+  },
+  {
+   "sample_index": 52,
+   "group": "question",
+   "clickability_test_id": "54496bfb3d38bb487a000084",
+   "headline": "Your Job Security Might Depend Upon Who You Date. You Are Safe In California. How's Your State?"
+  },
+  {
+   "sample_index": 53,
+   "group": "question",
+   "clickability_test_id": "51a8f42248662f6f8e00de96",
+   "headline": "PLOT TWIST: What Happens When Fox News Becomes So Misogynistic They Even Infuriate Fox News?"
+  },
+  {
+   "sample_index": 54,
+   "group": "question",
+   "clickability_test_id": "532c5b192fa99eb097000088",
+   "headline": "Is A Draft The Only Way To Understand The True Cost Of War?"
+  },
+  {
+   "sample_index": 55,
+   "group": "question",
+   "clickability_test_id": "52e1e30d73d97fe878000005",
+   "headline": "If Nutrition Is Not Necessarily About Nutrients Or Calories, Then What Is It About?"
+  },
+  {
+   "sample_index": 56,
+   "group": "question",
+   "clickability_test_id": "5457c572ce7a29f5df000049",
+   "headline": "Anyone Else Find It Weirdly Erotic How This Guy Is Ironing Patches Onto The Other Dude\u2019s Jumpsuit?"
+  },
+  {
+   "sample_index": 57,
+   "group": "question",
+   "clickability_test_id": "546bc58a100ab552ba000044",
+   "headline": "Her Greatest Fear Is Public Speaking. So Why Live Life In The Spotlight?"
+  },
+  {
+   "sample_index": 58,
+   "group": "question",
+   "clickability_test_id": "52fd310fd62410dcbf00005e",
+   "headline": "A Graph Showing Sexism In 2008 Can't Possibly Be The Same In 2013. Oh Wait, Is It!?"
+  },
+  {
+   "sample_index": 59,
+   "group": "question",
+   "clickability_test_id": "516880d2a056a1000200f058",
+   "headline": "Which Star Of Inception And X-Men Is Now Starring In My Feminist Dreams?"
+  },
+  {
+   "sample_index": 60,
+   "group": "question",
+   "clickability_test_id": "5491a89d306134001b680000",
+   "headline": "The Science Of Spanking: What Happens To Spanked Kids When They Grow Up?"
+  },
+  {
+   "sample_index": 61,
+   "group": "question",
+   "clickability_test_id": "54fa09566131640019e10000",
+   "headline": "When you think of someone reciting Shakespeare, is the first person you think of a black woman?"
+  },
+  {
+   "sample_index": 62,
+   "group": "question",
+   "clickability_test_id": "538fac07aa2af370b5000079",
+   "headline": "What Happens When You Mix Young Minds And Dirty Hands?"
+  },
+  {
+   "sample_index": 63,
+   "group": "question",
+   "clickability_test_id": "51436074220cb800020007b0",
+   "headline": "How Many Earth-Destroying Asteroids Are Headed Towards Us At This Exact Moment? "
+  },
+  {
+   "sample_index": 64,
+   "group": "question",
+   "clickability_test_id": "5492119d3033660021160000",
+   "headline": "In 1944, We Executed A 14-Year-Old Boy. Why Did It Take 70 Years For Us To Pardon Him?"
+  },
+  {
+   "sample_index": 65,
+   "group": "question",
+   "clickability_test_id": "53f4d5414090373287000006",
+   "headline": "What Are The Top 3 Ways To Die In Your Part Of The World?"
+  },
+  {
+   "sample_index": 66,
+   "group": "question",
+   "clickability_test_id": "53d1e5643372188867000017",
+   "headline": "Do You Know The Silly Reason Why America Put A Man On The Moon? Do You Know Why We Stopped Going?"
+  },
+  {
+   "sample_index": 67,
+   "group": "question",
+   "clickability_test_id": "5492f7dc3033660018760000",
+   "headline": "'Jax Teller' From 'Sons Of Anarchy' Is A White Dude. But What If He Hadn't Been?"
+  },
+  {
+   "sample_index": 68,
+   "group": "question",
+   "clickability_test_id": "5300c15e859a569641000003",
+   "headline": "What Industry Have Men Completely Taken Over This Time?"
+  },
+  {
+   "sample_index": 69,
+   "group": "question",
+   "clickability_test_id": "53a5d1a28439ba22e700003a",
+   "headline": "Hey Black People: Have You Caught Yourself Saying Any Of This Terrible Stuff To White People?"
+  },
+  {
+   "sample_index": 70,
+   "group": "question",
+   "clickability_test_id": "53fa749ca637027c6c000001",
+   "headline": "What Does Vacuuming In My Underwear, Muscle Bears, And 24 Show Stopping Tunes Have In Common?"
+  },
+  {
+   "sample_index": 71,
+   "group": "question",
+   "clickability_test_id": "53a5d1a28439ba22e700003a",
+   "headline": "Hey Black People: Have You Caught Yourself Saying Any Of This Terrible Stuff To White People?"
+  },
+  {
+   "sample_index": 72,
+   "group": "question",
+   "clickability_test_id": "54b08de563616200150c0000",
+   "headline": "What Happens If You Try To Kill Yourself And Survive?"
+  },
+  {
+   "sample_index": 73,
+   "group": "question",
+   "clickability_test_id": "52fd310fd62410dcbf00005e",
+   "headline": "A Graph Showing Sexism In 2008 Can't Possibly Be The Same In 2013. Oh Wait, Is It!?"
+  },
+  {
+   "sample_index": 74,
+   "group": "question",
+   "clickability_test_id": "53e516736286023422000014",
+   "headline": "Why Do So Many People Care About Whether Other People Have Kids?"
+  },
+  {
+   "sample_index": 75,
+   "group": "question",
+   "clickability_test_id": "5300c15e859a569641000003",
+   "headline": "Good Thing This Graph Showing Sexism In 2008 Isn't The Same As In 2013. Oh, WHAT!? It Is!?"
+  },
+  {
+   "sample_index": 76,
+   "group": "question",
+   "clickability_test_id": "54b08de563616200150c0000",
+   "headline": "What Happens If You Try To Kill Yourself And Survive?"
+  },
+  {
+   "sample_index": 77,
+   "group": "question",
+   "clickability_test_id": "52f8204f4519171313000010",
+   "headline": "Have You Ever Been Asked This Question? What Was Your Reply?"
+  },
+  {
+   "sample_index": 78,
+   "group": "question",
+   "clickability_test_id": "545265f44b3f974718000045",
+   "headline": "Annoyed When People Talk About White Male Privilege Or Whatever? Think They're Trying To Guilt You?"
+  },
+  {
+   "sample_index": 79,
+   "group": "question",
+   "clickability_test_id": "54529e13490f33fa51000008",
+   "headline": "Do You Kind Of Secretly Believe These 6 Myths About Climate Change?"
+  },
+  {
+   "sample_index": 80,
+   "group": "question",
+   "clickability_test_id": "54e2337530346100286f0000",
+   "headline": "Last Week Tonight poses a great question: Why is there still a Sports Illustrated Swimsuit issue?"
+  },
+  {
+   "sample_index": 81,
+   "group": "question",
+   "clickability_test_id": "5492f7dc3033660018760000",
+   "headline": "If The Main Characters Were Black Men, How Would Your Favorite TV Shows Be Different?"
+  },
+  {
+   "sample_index": 82,
+   "group": "question",
+   "clickability_test_id": "54b08de563616200150c0000",
+   "headline": "What Happens If You Try To Kill Yourself And Survive?"
+  },
+  {
+   "sample_index": 83,
+   "group": "question",
+   "clickability_test_id": "5519a0f73738360018580000",
+   "headline": "Kid President to everyone: 'Be the reason somebody dances this week.' I'm in. How about you?"
+  },
+  {
+   "sample_index": 84,
+   "group": "question",
+   "clickability_test_id": "5176d31032738d0002012e48",
+   "headline": "If You Had 5 Minutes To Talk To A Terrorist, Would You Know What To Say?"
+  },
+  {
+   "sample_index": 85,
+   "group": "question",
+   "clickability_test_id": "54b08de563616200150c0000",
+   "headline": "What Happens If You Try To Kill Yourself And Survive?"
+  },
+  {
+   "sample_index": 86,
+   "group": "question",
+   "clickability_test_id": "53fb590c0191573eb1000022",
+   "headline": "What Does The U.S. Do More Of Than Just About Any Other Country In The World?"
+  },
+  {
+   "sample_index": 87,
+   "group": "question",
+   "clickability_test_id": "54496bfb3d38bb487a000084",
+   "headline": "Your Job Security Might Depend Upon Who You Date. You Are Safe In California. How's Your State?"
+  },
+  {
+   "sample_index": 88,
+   "group": "question",
+   "clickability_test_id": "53d1e5643372188867000017",
+   "headline": "Do You Know The Silly Reason Why America Put A Man On The Moon? Do You Know Why We Stopped Going?"
+  },
+  {
+   "sample_index": 89,
+   "group": "question",
+   "clickability_test_id": "539b38dfe5b96dae1a0000a0",
+   "headline": "She Was Sexually Assaulted. She Didn't Call It That, Though. Why Not?"
+  },
+  {
+   "sample_index": 90,
+   "group": "question",
+   "clickability_test_id": "53f3800d56f73732f5000038",
+   "headline": "Would #Ferguson Have Turned Out Differently If The Original Cop Incident Had Been Recorded?"
+  },
+  {
+   "sample_index": 91,
+   "group": "question",
+   "clickability_test_id": "52eee540612cf5955e000009",
+   "headline": "Every Person On Earth Is Supposed To Have These. But What Are They Exactly?"
+  },
+  {
+   "sample_index": 92,
+   "group": "question",
+   "clickability_test_id": "53f27cc996db3d7a4d000001",
+   "headline": "How Long Ago Did You Give Up Your Voice?"
+  },
+  {
+   "sample_index": 93,
+   "group": "question",
+   "clickability_test_id": "536412e1d2b3b8562e00002a",
+   "headline": "Did These Dudes Just Win A Dance Off ...With The Law?"
+  },
+  {
+   "sample_index": 94,
+   "group": "question",
+   "clickability_test_id": "51c1bc378443cd83710044a0",
+   "headline": "Are You Ready To Take On One Of The Most Adorable Challenges To Save The World?"
+  },
+  {
+   "sample_index": 95,
+   "group": "question",
+   "clickability_test_id": "5457f6afad03e96a03000077",
+   "headline": "The Good Guys Are Cutting Horns Off Of Rhinos? Wait What?"
+  },
+  {
+   "sample_index": 96,
+   "group": "question",
+   "clickability_test_id": "54f35e3863666400193c0000",
+   "headline": "Gay people don't have many of the rights that straight people do, but what about things like this?"
+  },
+  {
+   "sample_index": 97,
+   "group": "question",
+   "clickability_test_id": "549456c63261630015300000",
+   "headline": "There's A Conversation Some Parents Are Having With Their Children. Are You?"
+  },
+  {
+   "sample_index": 98,
+   "group": "question",
+   "clickability_test_id": "54368c44f0d5e815c0000023",
+   "headline": "Veterans Fight For Our Freedom. When They Come Home, Do We Fight For Them?"
+  },
+  {
+   "sample_index": 99,
+   "group": "question",
+   "clickability_test_id": "54b08de563616200150c0000",
+   "headline": "What Happens If You Try To Kill Yourself And Survive?"
+  },
+  {
+   "sample_index": 100,
+   "group": "non_question",
+   "clickability_test_id": "542dac4fe407f86ac500006a",
+   "headline": "The Difference Between Life And Death, Illustrated In 90 Seconds"
+  },
+  {
+   "sample_index": 101,
+   "group": "non_question",
+   "clickability_test_id": "5310d54c10a5f2d06c000062",
+   "headline": "An Anchor Can't Figure Out The Problem With The Arizona Anti-Gay Law. Her Guest Tries To Explain."
+  },
+  {
+   "sample_index": 102,
+   "group": "non_question",
+   "clickability_test_id": "5422b77ea369ff3dba000055",
+   "headline": "There Are Some Things That Private Parts Cannot Tell You. (Unless They Happen To Talk.)"
+  },
+  {
+   "sample_index": 103,
+   "group": "non_question",
+   "clickability_test_id": "53c471fc68e6a3385c000002",
+   "headline": "Meet A Boss Who Actually Likes To Pay His Staff What They Are Worth"
+  },
+  {
+   "sample_index": 104,
+   "group": "non_question",
+   "clickability_test_id": "548f8631383433001b030000",
+   "headline": "Why So Many Men Are Thanking An Irish Guy For Revealing A Secret They're Too Afraid To Admit"
+  },
+  {
+   "sample_index": 105,
+   "group": "non_question",
+   "clickability_test_id": "545265f44b3f974718000045",
+   "headline": "These Posters Explain The Barest Truth About 6 Types Of 'Privilege.' Even If You Hate That Word."
+  },
+  {
+   "sample_index": 106,
+   "group": "non_question",
+   "clickability_test_id": "5480929e613633001b220000",
+   "headline": "This Clip Opens With Judgmental Pastors Casting Hate. It Ends With Love."
+  },
+  {
+   "sample_index": 107,
+   "group": "non_question",
+   "clickability_test_id": "534983a3325be93e7c000035",
+   "headline": "Google Has A Funny Way Of Erasing All Of The Moments In Women's History With Just 11 Letters"
+  },
+  {
+   "sample_index": 108,
+   "group": "non_question",
+   "clickability_test_id": "542493dd996e9068760000dc",
+   "headline": "America Wouldn\u2019t Accept His Views, So He Exported Them"
+  },
+  {
+   "sample_index": 109,
+   "group": "non_question",
+   "clickability_test_id": "540956ba844567b482000049",
+   "headline": "This Dude Has A Lot Of Rules For Women. I Think He\u2019s Right."
+  },
+  {
+   "sample_index": 110,
+   "group": "non_question",
+   "clickability_test_id": "5348131a68065acbb500001e",
+   "headline": "This Dad Has A Message To The Boys Who Want To Date His Daughter. ADDENDUM: Also, The Girls."
+  },
+  {
+   "sample_index": 111,
+   "group": "non_question",
+   "clickability_test_id": "54948eba30626400182e0000",
+   "headline": "When A Boy Stole From A Shop Owner All The Good Happened"
+  },
+  {
+   "sample_index": 112,
+   "group": "non_question",
+   "clickability_test_id": "5408bcad844567ca60000018",
+   "headline": "3 Reasons Why Ronald McDonald Isn't Very Cheerful Today"
+  },
+  {
+   "sample_index": 113,
+   "group": "non_question",
+   "clickability_test_id": "5498878336333500249e0000",
+   "headline": "They're Calling This Actor And Former High School Teacher 'The Next Harry Belafonte' \u2014 I Get It"
+  },
+  {
+   "sample_index": 114,
+   "group": "non_question",
+   "clickability_test_id": "541c816b7bc1ef895600002b",
+   "headline": "This Map Of Which People Use The Most Energy Totally Surprised Me"
+  },
+  {
+   "sample_index": 115,
+   "group": "non_question",
+   "clickability_test_id": "547f753d3433360012290000",
+   "headline": "One List That America Should Be Ashamed To Be On. And North Korea Is Barely Beating Us."
+  },
+  {
+   "sample_index": 116,
+   "group": "non_question",
+   "clickability_test_id": "53b41f91cf4a0cf85d000013",
+   "headline": "Next Time Someone Says Women Should Be Homemakers, Tell Them To Keep These Ladies In Mind"
+  },
+  {
+   "sample_index": 117,
+   "group": "non_question",
+   "clickability_test_id": "52f0f4b1c473ca38e6000031",
+   "headline": "The Perfect Reply A Girl Can Give To The Question: \"What's Your Favorite Position?\""
+  },
+  {
+   "sample_index": 118,
+   "group": "non_question",
+   "clickability_test_id": "542d99e852a3f6b592000039",
+   "headline": "If You Think Being Shy Is Hard, See What People With Social Anxiety Deal With Every Day"
+  },
+  {
+   "sample_index": 119,
+   "group": "non_question",
+   "clickability_test_id": "553faeb2336438001c7f0100",
+   "headline": "Ever heard of the Battle of Blair Mountain? Historians say the U.S. Army bombed striking miners."
+  },
+  {
+   "sample_index": 120,
+   "group": "non_question",
+   "clickability_test_id": "52dea5f3202c5ca794000009",
+   "headline": "A Video I Loved Within The First 10 Seconds From A Dude In An Apron Explaining Birth Control Magic"
+  },
+  {
+   "sample_index": 121,
+   "group": "non_question",
+   "clickability_test_id": "53517411c82697e770000039",
+   "headline": "Why We Need More Women In Science, Technology, Electronics, And Math"
+  },
+  {
+   "sample_index": 122,
+   "group": "non_question",
+   "clickability_test_id": "530d5c9106692a5ee7000003",
+   "headline": "Ellen, Katy Perry, And A Hockey Player Walk Into A Commercial And Destroy A Silly Argument"
+  },
+  {
+   "sample_index": 123,
+   "group": "non_question",
+   "clickability_test_id": "54fcbd95353233000c340000",
+   "headline": "Some self-reflective questions from a man who has a hard time actually saying 'I'm a feminist'"
+  },
+  {
+   "sample_index": 124,
+   "group": "non_question",
+   "clickability_test_id": "53fc03382ee4d19082000007",
+   "headline": "She Got Fed Up With Sexist Commercials, So She Acted Them Out. It\u2019s Hilarious And Completely NSFW."
+  },
+  {
+   "sample_index": 125,
+   "group": "non_question",
+   "clickability_test_id": "54234ee2fc77add01700000f",
+   "headline": "There's A Big Difference In The Way This Celebrity Gets Treated By The Cops Than Many Of Us"
+  },
+  {
+   "sample_index": 126,
+   "group": "non_question",
+   "clickability_test_id": "53e8014744fc919df5000004",
+   "headline": "3 Major Gangs Surround Their House, Yet They Never Lock Their Doors"
+  },
+  {
+   "sample_index": 127,
+   "group": "non_question",
+   "clickability_test_id": "54d3a3853137330026900000",
+   "headline": "If You Were Hoping That Climate Change Might Just Go Away, His \"Handy Reference\" Is Your Answer."
+  },
+  {
+   "sample_index": 128,
+   "group": "non_question",
+   "clickability_test_id": "53cffcebe54a0f95e8000072",
+   "headline": "I Don\u2019t Know About You, But I Prefer My Strong Female Characters To Pass The Sexy Lamp Test"
+  },
+  {
+   "sample_index": 129,
+   "group": "non_question",
+   "clickability_test_id": "5418704493f633e48400008b",
+   "headline": "I Couldn't Look Away From This Visually Stunning Depiction Of Nikola Tesla's Work"
+  },
+  {
+   "sample_index": 130,
+   "group": "non_question",
+   "clickability_test_id": "553fb407616464002cd40100",
+   "headline": "There's a simple fix to save the life of an overdosed heroin user, and it can be given by anybody."
+  },
+  {
+   "sample_index": 131,
+   "group": "non_question",
+   "clickability_test_id": "537e505e422754c29800001b",
+   "headline": "Here Are Some Graphics And Animated GIFs That Tell A Kinda Scary Tale About Our Schools"
+  },
+  {
+   "sample_index": 132,
+   "group": "non_question",
+   "clickability_test_id": "53873470f36fc7920b00002b",
+   "headline": "Your Excel Spreadsheet Doesn't Remember That Joke You Told 15 Years Ago"
+  },
+  {
+   "sample_index": 133,
+   "group": "non_question",
+   "clickability_test_id": "5420a98902c5bfa501000057",
+   "headline": "She Was Offering Her Breast To More Than One Pair Of Eager Lips. It Made Her Feel Some Things."
+  },
+  {
+   "sample_index": 134,
+   "group": "non_question",
+   "clickability_test_id": "53ebdf21220f801d6f000038",
+   "headline": "Yes, This Town Is Real. Yes, It's Totally Adorable. And Yes, What It Did Is Making Kids More Active."
+  },
+  {
+   "sample_index": 135,
+   "group": "non_question",
+   "clickability_test_id": "553689b2346161000c420100",
+   "headline": "Canceling out the harmful effects of sitting can be done without even breaking a sweat."
+  },
+  {
+   "sample_index": 136,
+   "group": "non_question",
+   "clickability_test_id": "5318d66cbc91b20a60000018",
+   "headline": "Never Before Have I Laughed So Hard At One Guy's Non-Attempt To Save The Planet"
+  },
+  {
+   "sample_index": 137,
+   "group": "non_question",
+   "clickability_test_id": "51ae05d832390c4e290053b6",
+   "headline": "Meet The Two 8-Year-Olds Who Aren't Letting Anything Hold Them Back "
+  },
+  {
+   "sample_index": 138,
+   "group": "non_question",
+   "clickability_test_id": "54f74b7e313536000cd40000",
+   "headline": "One of the most beautifully shot videos I've ever seen that makes me feel ugly to be a human"
+  },
+  {
+   "sample_index": 139,
+   "group": "non_question",
+   "clickability_test_id": "53beef0df8df06ec9700003d",
+   "headline": "It's Rude, Scary And Awful. So Women Are Joining Together To Put An End To It\u2014And Just Walk Home."
+  },
+  {
+   "sample_index": 140,
+   "group": "non_question",
+   "clickability_test_id": "53c059195d80f09ef300001c",
+   "headline": "See How These Clever Designers Are Using Cardboard Signs To Lead The Homeless To A Better Life"
+  },
+  {
+   "sample_index": 141,
+   "group": "non_question",
+   "clickability_test_id": "53da47b3fb557407e20000b8",
+   "headline": "At Age 11, His Parents 'Returned' Him. But What Happened Next Is Just As Important."
+  },
+  {
+   "sample_index": 142,
+   "group": "non_question",
+   "clickability_test_id": "53a07bb6539d25230c000045",
+   "headline": "Meet The Man With One Of The Worst Moral Compasses In America"
+  },
+  {
+   "sample_index": 143,
+   "group": "non_question",
+   "clickability_test_id": "551334353633370024070000",
+   "headline": "This animation is the best, most non-confrontational way to talk about privilege"
+  },
+  {
+   "sample_index": 144,
+   "group": "non_question",
+   "clickability_test_id": "5453c2836c85f73a16000011",
+   "headline": "What's It Like To Have Alzheimer's? They Could Barely Last 12 Minutes Trying To Find Out."
+  },
+  {
+   "sample_index": 145,
+   "group": "non_question",
+   "clickability_test_id": "545aafe2d5a7da6fb500001c",
+   "headline": "The Beautiful TV Moment Ellen Couldn't Believe And Why Viola Davis Demanded It"
+  },
+  {
+   "sample_index": 146,
+   "group": "non_question",
+   "clickability_test_id": "542c2bd734120f5199000023",
+   "headline": "Doctors Give 2 Blind Sisters The Gift Of Sight. The First Thing They Do? Smile. And Now I Am Too."
+  },
+  {
+   "sample_index": 147,
+   "group": "non_question",
+   "clickability_test_id": "54aafa4d62336500240e0000",
+   "headline": "It's Easy To Understand The Feelings You'll Probably Feel About Poverty, Even Without Words"
+  },
+  {
+   "sample_index": 148,
+   "group": "non_question",
+   "clickability_test_id": "54a4021c623532001b240000",
+   "headline": "The Top Five Countries For Gender Equality In 2014 Are All In One Place. I Want To Go To There."
+  },
+  {
+   "sample_index": 149,
+   "group": "non_question",
+   "clickability_test_id": "53607a22464afab714000031",
+   "headline": "Scientists Studying The 'Big Bang' Have Discovered Some Bananas-Crazy Information"
+  },
+  {
+   "sample_index": 150,
+   "group": "non_question",
+   "clickability_test_id": "54aec621633163001b7e0000",
+   "headline": "The Hard Facts About A Guy Issue Known As 'Morning Wood'"
+  },
+  {
+   "sample_index": 151,
+   "group": "non_question",
+   "clickability_test_id": "54b5e5673262370025250000",
+   "headline": "When I Read About Virginity Tests For Female Cops I Thought I'd Read It Wrong. SMH"
+  },
+  {
+   "sample_index": 152,
+   "group": "non_question",
+   "clickability_test_id": "54233529a7d2af5fe30000f1",
+   "headline": "She Was Selected From Over 500 Candidates To Speak To The United Nations Today. And She Nailed It."
+  },
+  {
+   "sample_index": 153,
+   "group": "non_question",
+   "clickability_test_id": "53b5d7619fdfe98e320000a3",
+   "headline": "An Incredibly Disturbing Truth About What Happens To Women In England After A World Cup Loss"
+  },
+  {
+   "sample_index": 154,
+   "group": "non_question",
+   "clickability_test_id": "54a2f47c3430340015680000",
+   "headline": "They Asked Incredible Number Of Kids 1 Big Question. Their Answers Kind Of Melted My Heart."
+  },
+  {
+   "sample_index": 155,
+   "group": "non_question",
+   "clickability_test_id": "545a971749823f7236000016",
+   "headline": "He's Totally Right About These Cartoon Villains. Now I Can Never Un-See It."
+  },
+  {
+   "sample_index": 156,
+   "group": "non_question",
+   "clickability_test_id": "553689b2346161000c420100",
+   "headline": "Cancel out the harmful effects of sitting in a way that works for you. Here's a few suggestions."
+  },
+  {
+   "sample_index": 157,
+   "group": "non_question",
+   "clickability_test_id": "5453ca536c85f7a901000053",
+   "headline": "Here's How To Thank Your Dad, When Your Mom Raised You On Her Own"
+  },
+  {
+   "sample_index": 158,
+   "group": "non_question",
+   "clickability_test_id": "544733930b628c329e000049",
+   "headline": "Think People Judge You Based On How You Look? Wait Until You Hear What They Really Mean."
+  },
+  {
+   "sample_index": 159,
+   "group": "non_question",
+   "clickability_test_id": "5143606d220cb80002000643",
+   "headline": "Sorry, WHAT?!: EVERY Piece Of Plastic Ever Made Still Exists TODAY?!"
+  },
+  {
+   "sample_index": 160,
+   "group": "non_question",
+   "clickability_test_id": "542aea408de8acc10600004b",
+   "headline": "There's An Incredibly Simple Reason Kids Are Dying Of Preventable Things. Hint: Rhymes With Bunny."
+  },
+  {
+   "sample_index": 161,
+   "group": "non_question",
+   "clickability_test_id": "53adfb5c1155599106000016",
+   "headline": "The Music Industry Asked Him To Change 1 Word In His Songs. Just Listen To His Response."
+  },
+  {
+   "sample_index": 162,
+   "group": "non_question",
+   "clickability_test_id": "5305332b61a0b92e1b000005",
+   "headline": "This Is Your Brain On An Orgasm. Probably Your Brain's Favorite Function."
+  },
+  {
+   "sample_index": 163,
+   "group": "non_question",
+   "clickability_test_id": "540e1e32af426f24d8000009",
+   "headline": "She Stood On Stage In Front Of Thousands Of People And Cried Out For Something Glaringly Obvious"
+  },
+  {
+   "sample_index": 164,
+   "group": "non_question",
+   "clickability_test_id": "53a37398e0d23f16ec00002d",
+   "headline": "A Kid Grows Up With Gay Parents. This Is A Snapshot Of What Life In Their Home Looks Like."
+  },
+  {
+   "sample_index": 165,
+   "group": "non_question",
+   "clickability_test_id": "53a07bb6539d25230c000045",
+   "headline": "Meet The Man With One Of The Worst Moral Compasses In America"
+  },
+  {
+   "sample_index": 166,
+   "group": "non_question",
+   "clickability_test_id": "5442b30018d72be329000048",
+   "headline": "A Bevy Of Famous Ladies Sing Along To This 50 Year Old Classic. Wow. This Song Is Magic."
+  },
+  {
+   "sample_index": 167,
+   "group": "non_question",
+   "clickability_test_id": "54578cea1729150da4000025",
+   "headline": "On November 1st, She Chose To Die With Dignity. Here's How She Explained It."
+  },
+  {
+   "sample_index": 168,
+   "group": "non_question",
+   "clickability_test_id": "546bc58a100ab552ba000044",
+   "headline": "A Famous Singer Has A Stutter \u2014 But You'd Never Know It From Her Songs"
+  },
+  {
+   "sample_index": 169,
+   "group": "non_question",
+   "clickability_test_id": "5308c3271e030e5930000003",
+   "headline": "Ellen, A Pop Star, And A Rapper Walk Into A Commercial And Destroy A Silly Argument"
+  },
+  {
+   "sample_index": 170,
+   "group": "non_question",
+   "clickability_test_id": "54d99895353864001a4e0000",
+   "headline": "They Put Him In A Pit And Tried To Get Him To Rip Apart A 2nd Dog. I'm Glad He Got Out."
+  },
+  {
+   "sample_index": 171,
+   "group": "non_question",
+   "clickability_test_id": "5442b30018d72be329000048",
+   "headline": "A Bevy Of Famous Ladies Sing Along To This 50 Year Old Classic. Wow. This Song Is Magic."
+  },
+  {
+   "sample_index": 172,
+   "group": "non_question",
+   "clickability_test_id": "5459ae2abefb9188c500002a",
+   "headline": "First He Called A Suicide Prevention Hotline, But The Next Call Is What Really Turned Things Around"
+  },
+  {
+   "sample_index": 173,
+   "group": "non_question",
+   "clickability_test_id": "546cad29fd36176c9900001d",
+   "headline": "I Wanted To Like This Woman, But The Selfies Were Too Much. Also, Everything Else About Her."
+  },
+  {
+   "sample_index": 174,
+   "group": "non_question",
+   "clickability_test_id": "545034c57ccd9dbdd300002a",
+   "headline": "Why Making New Photos Look Old Can Make You Feel Like Crying"
+  },
+  {
+   "sample_index": 175,
+   "group": "non_question",
+   "clickability_test_id": "546eccc187942aedcb000013",
+   "headline": "Eva Longoria Got A Full Audience Of People To Laugh And Applaud A Tomato"
+  },
+  {
+   "sample_index": 176,
+   "group": "non_question",
+   "clickability_test_id": "535837a51a09bfcf21000030",
+   "headline": "Sex Is Everywhere. Like, Everywhere. Except Here (Probably)."
+  },
+  {
+   "sample_index": 177,
+   "group": "non_question",
+   "clickability_test_id": "5498bb4b3631630015260000",
+   "headline": "This Is What You Were Up To When You Were Baking In Your Mama's Oven During That 9-Month Marathon"
+  },
+  {
+   "sample_index": 178,
+   "group": "non_question",
+   "clickability_test_id": "539631fe45da7fbe69000021",
+   "headline": "It Should Have Been Sad But Michelle Obama's Speech Made Me - And Millions Of Women - Feel Amazing."
+  },
+  {
+   "sample_index": 179,
+   "group": "non_question",
+   "clickability_test_id": "53ee048559db3f98f300000f",
+   "headline": "Why Are People Rioting In Missouri? Here's A Very Clear Picture."
+  },
+  {
+   "sample_index": 180,
+   "group": "non_question",
+   "clickability_test_id": "5345b0de1ab01221a3000027",
+   "headline": "The Highly Compelling Case For Wealth Redistribution Made By The Exact Right Person"
+  },
+  {
+   "sample_index": 181,
+   "group": "non_question",
+   "clickability_test_id": "52f950dbb1351a570b000008",
+   "headline": "Statistics Say We Should Take Friday Off From Work. All The Fridays, Forever And Ever."
+  },
+  {
+   "sample_index": 182,
+   "group": "non_question",
+   "clickability_test_id": "5408d1bd7f3a4ff4c0000028",
+   "headline": "2 Women Get Ready For Their Dates. Here's Why Only One Of Their Nights Ends Well."
+  },
+  {
+   "sample_index": 183,
+   "group": "non_question",
+   "clickability_test_id": "537b5babbd2aa46497000060",
+   "headline": "Animals Just May Be Getting The Rights They Deserve, Just Like Humans Do"
+  },
+  {
+   "sample_index": 184,
+   "group": "non_question",
+   "clickability_test_id": "549444f23732320024420000",
+   "headline": "There Really Is A War On This Sacred Holiday In America - And It's Time To Fight Back."
+  },
+  {
+   "sample_index": 185,
+   "group": "non_question",
+   "clickability_test_id": "53882ab9d006a9a7e000007a",
+   "headline": "50+ Pretty Shocking Facts That Make Things Harder For Every Woman You Have Ever Met"
+  },
+  {
+   "sample_index": 186,
+   "group": "non_question",
+   "clickability_test_id": "54808fb763323100242b0000",
+   "headline": "They Put 2 Guys In A Room And Made Them Argue Passive-Aggressively For 90 Seconds Or So"
+  },
+  {
+   "sample_index": 187,
+   "group": "non_question",
+   "clickability_test_id": "54d458a7376437000caa0000",
+   "headline": "A Football Team Is Taking Their Towels Off To Show Men How To Check For Cancer"
+  },
+  {
+   "sample_index": 188,
+   "group": "non_question",
+   "clickability_test_id": "53103176a491f5560f00001f",
+   "headline": "Some People Don't Have A Problem Destroying Something Everyone Loves. Maybe We Shouldn't Let Them."
+  },
+  {
+   "sample_index": 189,
+   "group": "non_question",
+   "clickability_test_id": "5480929e613633001b220000",
+   "headline": "Things Don't Go As Planned When A Beautiful Blonde And Blue Eyed Freshman Sits Next To Him In Church"
+  },
+  {
+   "sample_index": 190,
+   "group": "non_question",
+   "clickability_test_id": "542891dd389e1cb9b7000025",
+   "headline": "A Turth Parody About How A Tic-Tac Was Mistaken For Birth Control And Almost Lost A Women Her Job"
+  },
+  {
+   "sample_index": 191,
+   "group": "non_question",
+   "clickability_test_id": "542c7d93615409973e000072",
+   "headline": "The World Might Be On The Brink Of Catastrophe. Here's The Staggering Evidence."
+  },
+  {
+   "sample_index": 192,
+   "group": "non_question",
+   "clickability_test_id": "543f267e43fbb6865300003a",
+   "headline": "Feminists Are Mean, Gross, And Scary \u2014 Until You Actually Hear What They Believe In"
+  },
+  {
+   "sample_index": 193,
+   "group": "non_question",
+   "clickability_test_id": "549896a2396462001b000000",
+   "headline": "If She Gets Her Way, Poverty-Stricken Children Will Have Better Options Than What They Have Now"
+  },
+  {
+   "sample_index": 194,
+   "group": "non_question",
+   "clickability_test_id": "53b56242c9b3e5e8e1000013",
+   "headline": "We Want Kids To Have Boundaries, But Here's How We Break Theirs Daily"
+  },
+  {
+   "sample_index": 195,
+   "group": "non_question",
+   "clickability_test_id": "537ac3d1bd2aa4b5df000022",
+   "headline": "Born This Way: Why Birth Family Makes All The Difference For Getting A Piece Of The American Dream"
+  },
+  {
+   "sample_index": 196,
+   "group": "non_question",
+   "clickability_test_id": "52f00e07955b9d8f16000016",
+   "headline": "Two Boys Understand All Too Well What Many Girls Go Through When They Look In The Mirror"
+  },
+  {
+   "sample_index": 197,
+   "group": "non_question",
+   "clickability_test_id": "537e505e422754c29800001b",
+   "headline": "There Are Certain Professions That Really Should Be Immune To Politics. Here's One Of Them."
+  },
+  {
+   "sample_index": 198,
+   "group": "non_question",
+   "clickability_test_id": "51491741cb47730002007b6f",
+   "headline": "This Is What Happens When We Touch Objects Instead Of People"
+  },
+  {
+   "sample_index": 199,
+   "group": "non_question",
+   "clickability_test_id": "5457066fce7a29f5df000003",
+   "headline": "No One Wanted To Touch The Golf Ball-Sized Lump In Her Foot. But To Her, That's Their Loss."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "by_group": {
+  "non_question": {
+   "error_rate": 0.06,
+   "errors": 6,
+   "n": 100
+  },
+  "question": {
+   "error_rate": 0.0,
+   "errors": 0,
+   "n": 100
+  }
+ },
+ "error_rate": 0.03,
+ "n_errors": 6,
+ "n_sampled": 200,
+ "note": "Label rule is frozen; the audit measures its error rate and does not change it.",
+ "seed": 20261106
+}

@@ -1,0 +1,26 @@
+{
+ "negative_control_starts_with_the": {
+  "ci95_log_or": [
+   -0.1372,
+   0.0146
+  ],
+  "log_or": -0.0613,
+  "n_tests": 83
+ },
+ "placebo_impressions_per_package": {
+  "ci95": [
+   -0.0022,
+   0.0049
+  ],
+  "log_ratio_impressions_per_package": 0.0014,
+  "n_tests": 113,
+  "tau": 0.0057
+ },
+ "sensitivity_ipw": {
+  "bias_to_explain_full_gap_log_or": 0.101,
+  "bias_to_explain_full_gap_or_factor": 1.1063,
+  "e_value": 1.2754,
+  "risk_ratio": 0.9534
+ },
+ "split": "dev"
+}

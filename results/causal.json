@@ -1,0 +1,63 @@
+{
+ "balance": {
+  "eyecatcher_reused": {
+   "smd_ipw": -0.0099,
+   "smd_matched": -0.023,
+   "smd_raw": 0.0804
+  },
+  "headline_len": {
+   "smd_ipw": 0.027,
+   "smd_matched": -0.0069,
+   "smd_raw": -0.4458
+  },
+  "sentiment": {
+   "smd_ipw": -0.0228,
+   "smd_matched": 0.0689,
+   "smd_raw": -0.0275
+  },
+  "test_week_num": {
+   "smd_ipw": 0.0,
+   "smd_matched": 0.0,
+   "smd_raw": 0.0
+  }
+ },
+ "balance_target_abs_smd_below": 0.1,
+ "benchmark_bootstrap_ci95_log_or": [
+  -0.2355,
+  -0.0666
+ ],
+ "benchmark_ci95_log_or": [
+  -0.2277,
+  -0.071
+ ],
+ "benchmark_log_or": -0.1494,
+ "bootstrap_runs": 2000,
+ "ipw": {
+  "gap_bootstrap_ci95": [
+   -0.0992,
+   0.2978
+  ],
+  "gap_to_benchmark": 0.101,
+  "log_or": -0.0484,
+  "mu_nonquestion": 0.013466,
+  "mu_question": 0.012838,
+  "n_trimmed": 0
+ },
+ "matching": {
+  "bootstrap_runs_with_pairs": 2000,
+  "gap_bootstrap_ci95": [
+   -0.0608,
+   0.3372
+  ],
+  "gap_to_benchmark": 0.1937,
+  "log_or": 0.0443,
+  "mu_nonquestion": 0.012362,
+  "mu_question": 0.012914,
+  "n_pairs": 292
+ },
+ "n_packages": 3714,
+ "n_tests": 768,
+ "naive_log_or": -0.0413,
+ "seed": 20261106,
+ "split": "dev"
+}

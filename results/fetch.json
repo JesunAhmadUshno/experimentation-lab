@@ -1,0 +1,15 @@
+{
+ "documented_packages": 22666,
+ "documented_tests": 4873,
+ "download_url": "https://osf.io/download/3vqmp/",
+ "expected_sha256": "8368313b060f4015a0c6fb34e6d788163cee29554144aba9390b14922eb9d8ce",
+ "expected_size_bytes": 14260949,
+ "file": "upworthy-archive-exploratory-packages-03.12.2020.csv",
+ "packages_match_documented": true,
+ "packages_rows": 22666,
+ "sha256": "8368313b060f4015a0c6fb34e6d788163cee29554144aba9390b14922eb9d8ce",
+ "sha256_match": true,
+ "size_bytes": 14260949,
+ "tests": 4873,
+ "tests_match_documented": true
+}

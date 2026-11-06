@@ -1,0 +1,35 @@
+{
+ "ci90_log_or": [
+  -0.2151,
+  -0.0836
+ ],
+ "ci95_log_or": [
+  -0.2277,
+  -0.071
+ ],
+ "ci95_odds_ratio": [
+  0.7964,
+  0.9314
+ ],
+ "exclusion_counts_full_file": {
+  "rows_dropped_window": 4251,
+  "rows_dropped_zero_impressions": 0,
+  "rows_kept": 18415,
+  "rows_total": 22666,
+  "tests_dropped_window": 1044,
+  "tests_kept": 3829,
+  "tests_total": 4873
+ },
+ "i2_percent": 79.2149,
+ "log_or": -0.1494,
+ "n_tests": 113,
+ "odds_ratio": 0.8612,
+ "se": 0.04,
+ "split": "dev",
+ "tau": 0.362,
+ "tau2": 0.131,
+ "tests_continuity_corrected": 0,
+ "tests_dropped_negative_nonclicks": 0,
+ "verdict": "INCONCLUSIVE",
+ "verdict_branch": "floor_cap_below_190_tests"
+}

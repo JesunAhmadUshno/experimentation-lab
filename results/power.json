@@ -1,0 +1,55 @@
+{
+ "c1_baseline_ctr_percent": 1.5405,
+ "c2_mean_arm_size": 3569.0,
+ "c2_mean_arm_size_rounded": 3569,
+ "c3_min_detectable_effect_pack": 60.3,
+ "c3_min_detectable_effect_percent_at_mean_arm": 60.3,
+ "c3_n_per_arm_by_relative_lift_percent": {
+  "10": {
+   "matches_pack": true,
+   "n_per_arm": 105261,
+   "pack_value": 105261
+  },
+  "20": {
+   "matches_pack": true,
+   "n_per_arm": 27546,
+   "pack_value": 27546
+  },
+  "5": {
+   "matches_pack": true,
+   "n_per_arm": 411183,
+   "pack_value": 411183
+  },
+  "50": {
+   "matches_pack": true,
+   "n_per_arm": 4996,
+   "pack_value": 4996
+  }
+ },
+ "c4_per_test_log_or_variance": 0.036945,
+ "c4_target_log_or": 0.0496,
+ "c4_tests_needed_by_tau": {
+  "0.0": {
+   "matches_pack": true,
+   "pack_value": 118,
+   "tests_needed": 118
+  },
+  "0.05": {
+   "matches_pack": true,
+   "pack_value": 126,
+   "tests_needed": 126
+  },
+  "0.1": {
+   "matches_pack": true,
+   "pack_value": 150,
+   "tests_needed": 150
+  },
+  "0.15": {
+   "matches_pack": true,
+   "pack_value": 190,
+   "tests_needed": 190
+  }
+ },
+ "formula": "pooled-variance two-proportion z, alpha 0.05 two-sided, power 0.80",
+ "inputs_labelled_estimates": true
+}
