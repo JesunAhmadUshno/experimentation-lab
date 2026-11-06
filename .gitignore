@@ -1,0 +1,12 @@
+# Data files are never committed (see data/README.md for source and hashes)
+data/raw/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# OS noise
+.DS_Store
