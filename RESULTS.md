@@ -76,13 +76,13 @@ Pack C5 reference (its own simulation): final look 5.03% (CI [4.93, 5.12]), any 
 - Randomized benchmark (primary estimator, dev): log OR -0.1494 (95% CI [-0.2277, -0.071]; bootstrap CI [-0.2355, -0.0666])
 - Naive cross-test estimate (no adjustment): log OR -0.0413
 - IPW estimate: log OR -0.0484; gap to benchmark 0.1010 (bootstrap 95% CI [-0.0992, 0.2978]); packages trimmed: 0
-- Matching estimate: log OR 0.0443 from 292 pairs; gap to benchmark 0.1937 (bootstrap 95% CI [-0.0608, 0.3372])
+- Matching estimate: log OR 0.0218 from 299 pairs; gap to benchmark 0.1712 (bootstrap 95% CI [-0.0531, 0.4089])
 
 | Covariate | SMD raw | SMD after IPW | SMD after matching |
 | --- | --- | --- | --- |
-| eyecatcher_reused | 0.0804 | -0.0099 | -0.0230 |
-| headline_len | -0.4458 | 0.0270 | -0.0069 |
-| sentiment | -0.0275 | -0.0228 | 0.0689 |
+| eyecatcher_reused | 0.0804 | -0.0099 | -0.0226 |
+| headline_len | -0.4458 | 0.0270 | -0.0057 |
+| sentiment | -0.0275 | -0.0228 | 0.0529 |
 | test_week_num | 0.0000 | 0.0000 | 0.0000 |
 
 Balance target: all adjusted SMDs below 0.1 in absolute value. Bootstrap: 2000 cluster resamples over tests, seed 20261106. Overlap plot: reports/propensity_overlap.png.

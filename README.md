@@ -25,7 +25,7 @@ Close a verified gap in the owner's public record (no experimentation or causal 
 | Naive peeking false-positive rate (7 looks, A/A) | 16.32% (fixed-horizon: 5.03%) | results/sequential.json |
 | mSPRT always-valid false-positive rate (A/A) | 0.00% | results/sequential.json |
 | Observational miss, IPW (dev, log odds) | gap 0.1010 (bootstrap CI -0.0992 to 0.2978) | results/causal.json |
-| Observational miss, matching (dev, log odds) | gap 0.1937 (bootstrap CI -0.0608 to 0.3372) | results/causal.json |
+| Observational miss, matching (dev, log odds) | gap 0.1712 (bootstrap CI -0.0531 to 0.4089) | results/causal.json |
 | Label rule error rate (200-headline audit) | 3.0% (all misses) | results/label_audit.json |
 | Placebo (impressions per package, log ratio) | 0.0014 (CI -0.0022 to 0.0049) | results/guardrails.json |
 
@@ -55,7 +55,7 @@ Installs pinned dependencies, downloads the exploratory file, verifies its SHA-2
 - The label rule sees only sentence-final question marks; the audit measures the cost (3.0 percent) and the dilution is real.
 - Heterogeneity is high (tau 0.33): the pooled value is an average over contexts that differ.
 - The archive holds no business guardrail metrics; guardrails here are data-integrity checks only.
-- Full deduction list: `AUDIT.md` (build grade 6,600 of 10,000).
+- Full deduction list: `AUDIT.md` (build grade 6,500 of 10,000).
 
 ## Data and licence
 

@@ -19,7 +19,6 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from scipy.spatial import cKDTree
 
 from . import SEED
 from .data import DEFAULT_DATA, DEFAULT_SPLIT, apply_exclusions, load_raw, load_split, restrict_to_split, round4
@@ -97,26 +96,35 @@ def ipw_estimate(df, e):
 
 def greedy_match(logit_t, logit_c, caliper):
     """Greedy 1 to 1 nearest-neighbour matching on the logit, without
-    replacement. Treated units are processed in order of their nearest
-    available distance (most constrained first); each takes its nearest
-    unused control inside the caliper from its 10 nearest candidates."""
-    if len(logit_t) == 0 or len(logit_c) == 0:
+    replacement, deterministic by construction (DECISIONS.md D12).
+
+    Logits are rounded to 8 decimals. Candidate pairs are all
+    (treated, control) pairs inside the caliper, with distances
+    computed here in float64. Pairs are considered in one total order:
+    distance, then treated row, then control row (numpy lexsort).
+    Each pair is assigned if both units are still free. No step
+    depends on a search tree's internal ordering or an unstable sort,
+    so the matched set is a pure function of the rounded logits."""
+    lt = np.round(np.asarray(logit_t, dtype=float), 8)
+    lc = np.round(np.asarray(logit_c, dtype=float), 8)
+    if len(lt) == 0 or len(lc) == 0:
         return []
-    tree = cKDTree(logit_c.reshape(-1, 1))
-    k = min(10, len(logit_c))
-    dists, idxs = tree.query(logit_t.reshape(-1, 1), k=k)
-    if k == 1:
-        dists = dists.reshape(-1, 1)
-        idxs = idxs.reshape(-1, 1)
-    order = np.argsort(dists[:, 0])
-    used_c = np.zeros(len(logit_c), dtype=bool)
+    dist = np.abs(lt[:, None] - lc[None, :])
+    ti_idx, ci_idx = np.nonzero(dist <= caliper)
+    if len(ti_idx) == 0:
+        return []
+    dists = dist[ti_idx, ci_idx]
+    order = np.lexsort((ci_idx, ti_idx, dists))
+    used_t = np.zeros(len(lt), dtype=bool)
+    used_c = np.zeros(len(lc), dtype=bool)
     pairs = []
-    for ti in order:
-        for d, ci in zip(dists[ti], idxs[ti]):
-            if d <= caliper and not used_c[ci]:
-                used_c[ci] = True
-                pairs.append((int(ti), int(ci)))
-                break
+    for k in order:
+        ti = int(ti_idx[k])
+        ci = int(ci_idx[k])
+        if not used_t[ti] and not used_c[ci]:
+            used_t[ti] = True
+            used_c[ci] = True
+            pairs.append((ti, ci))
     return pairs
 
 

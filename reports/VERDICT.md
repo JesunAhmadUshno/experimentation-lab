@@ -11,7 +11,7 @@ In the locked confirmatory split of the Upworthy Research Archive exploratory da
 ## Supporting numbers
 
 - Development split (practice run of the same estimator): pooled log OR -0.1494 (95% CI [-0.2277, -0.071], 113 tests), verdict word on dev alone would have been INCONCLUSIVE.
-- Causal arm (dev): IPW gap to the randomized benchmark 0.1010 log odds (bootstrap 95% CI [-0.0992, 0.2978]); matching gap 0.1937 (bootstrap 95% CI [-0.0608, 0.3372]).
+- Causal arm (dev): IPW gap to the randomized benchmark 0.1010 log odds (bootstrap 95% CI [-0.0992, 0.2978]); matching gap 0.1712 (bootstrap 95% CI [-0.0531, 0.4089]).
 - Sequential module (A/A): naive peeking at 7 looks rejects 16.32% of null streams; mSPRT rejects 0.0%.
 
 ## Hypothesis verdicts

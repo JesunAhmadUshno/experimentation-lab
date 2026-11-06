@@ -42,7 +42,7 @@ Date: 2026-11-06. Scope: the full build of this repository, checked against the 
 - U5 power and peeking: done (sections 2 and 3 of RESULTS.md).
 - U6 primary analysis: done. One look at the locked split by the frozen script. Verdict CONFIRMED.
 - U7 sequential module: done as designed. mSPRT A/A Type I error 0.00 percent (at most 5 percent required). Caveat in the grade below.
-- U8 causal arm: done. Balance target met after adjustment (largest adjusted SMD 0.0689); gaps reported with 2,000-resample cluster bootstrap intervals; overlap plot at reports/propensity_overlap.png.
+- U8 causal arm: done. Balance target met after adjustment (largest adjusted SMD 0.0529); gaps reported with 2,000-resample cluster bootstrap intervals; overlap plot at reports/propensity_overlap.png.
 - U9 stress tests: done. Placebo 0.0014 (CI -0.0022 to 0.0049); negative control -0.0613 (CI -0.1372 to 0.0146); IPW E-value 1.2754; bias to explain the full IPW gap 0.1010 log odds.
 - U10 one-command reproduction: done. `make reproduce` regenerates the split lock and both generated reports byte-identical; CI runs the same pipeline on Python 3.11 and 3.12.
 
@@ -50,12 +50,12 @@ Date: 2026-11-06. Scope: the full build of this repository, checked against the 
 
 - H1 Supported. Locked: log OR -0.1456, 95% CI -0.1821 to -0.1091, 465 tests.
 - H2 Refuted. The 90% CI (-0.1762 to -0.1150) lies outside the plus or minus 5 percent band on the negative side: the measured effect is larger than the smallest effect of interest, in the negative direction.
-- H3 Refuted, by its frozen criterion: both adjusted gap intervals include 0 (IPW gap 0.1010, CI -0.0992 to 0.2978; matching gap 0.1937, CI -0.0608 to 0.3372) and balance was achieved. The point gaps are large and are reported in full; at development-split precision the miss cannot be distinguished from recovery. This is a precision verdict, not evidence that observational recovery works well.
+- H3 Refuted, by its frozen criterion: both adjusted gap intervals include 0 (IPW gap 0.1010, CI -0.0992 to 0.2978; matching gap 0.1712, CI -0.0531 to 0.4089) and balance was achieved. The point gaps are large and are reported in full; at development-split precision the miss cannot be distinguished from recovery. This is a precision verdict, not evidence that observational recovery works well.
 - H4 Supported. Naive peeking rejects 16.32 percent of null streams (above the 10 percent bar); mSPRT rejects 0.00 percent (at or below 5 percent).
 
 ## Grade
 
-Build grade on the house 10,000 scale: **6,600**. Floored, itemized, nothing rounded up.
+Build grade on the house 10,000 scale: **6,500**. Floored, itemized, nothing rounded up.
 
 - Confirmatory split unused; the headline estimate rests on the exploratory split under self-registration, with the OSF registration still held. Minus 600.
 - The causal arm closes on a precision verdict: its intervals are too wide to settle recovery either way (benchmark rests on 113 dev tests). Minus 500.
@@ -67,9 +67,9 @@ Build grade on the house 10,000 scale: **6,600**. Floored, itemized, nothing rou
 - One dataset, one publisher, 2013 to 2015: external validity is nil by construction and is stated as such. Minus 250.
 - Integrity evidence rests on one balance statistic and on the window form of the problem exclusion, because this file version carries no problem column and few integrity fields. Minus 200.
 - The negative control is not at zero (-0.0613, CI includes 0): headline style features correlate with CTR beyond the studied contrast. Minus 150.
-- Process: one loader bug (mixed datetime formats) and one gitignore scope error were caught and fixed in their own commits before any affected analysis ran. Minus 100.
+- Process: one loader bug (mixed datetime formats) and one gitignore scope error were caught and fixed in their own commits before any affected analysis ran; and the first matcher was not deterministic across platforms (KD-tree tie order plus an unstable sort), caught by the CI byte-check across Python 3.11 and 3.12 and replaced with a deterministic matcher (DECISIONS.md D12; the superseded matching numbers, log OR 0.0443 and gap 0.1937 on 3.12 against 0.0385 and 0.1879 on 3.11, stay in that entry). Minus 200.
 
-Total deductions: 3,400. Grade: 10,000 minus 3,400 = 6,600.
+Total deductions: 3,500. Grade: 10,000 minus 3,500 = 6,500.
 
 ## Held items (untouched, confirmed)
 
