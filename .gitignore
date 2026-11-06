@@ -1,6 +1,6 @@
 # Data files are never committed (see data/README.md for source and hashes)
 data/raw/
-*.csv
+data/*.csv
 
 # Python
 __pycache__/
