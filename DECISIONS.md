@@ -47,3 +47,9 @@ Reason: one-command reproduction must not depend on a second dataset download wh
 ## D10. Initial data retrieval route
 
 The exploratory file was first retrieved directly from its OSF download endpoint (`https://osf.io/download/3vqmp/`) to generate the split lock. `src/explab/fetch.py` encodes the same endpoint and verifies the SHA-256 against the OSF-published value; `make reproduce` re-runs it. The confirmatory file's endpoint was listed in the OSF folder metadata during discovery and was never requested.
+
+## D11. mSPRT mixing scale: frozen value kept after the simulation ran
+
+After the sequential module ran, its mSPRT arm showed Type I 0.00 percent and power 0.00 percent at a 5 percent lift, because at archive arm sizes (at most 3,500 impressions per arm) the estimator variance stays far above the frozen mixing variance, so the likelihood ratio cannot reach the rejection threshold. Options: (a) amend tau_mix upward after seeing the simulation; (b) keep the frozen value and report the module as designed.
+Choice: (b).
+Reason: the value was frozen in PREREG section 10 before any run, and the simulation uses no outcome data, but changing a frozen design parameter after observing its behaviour is still post-hoc tuning. The honest finding stands: at these arm sizes no method detects a 5 percent lift (the fixed-horizon test has 5.76 percent power), peeking manufactures false positives (16.32 percent), and the always-valid test refuses. The mixing-scale sensitivity is recorded as Deep item 3 in ROADMAP.md.
