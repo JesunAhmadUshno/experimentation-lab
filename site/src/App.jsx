@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect, useCallback } from 'react';
+import { useMemo, useState, useEffect, useCallback, useId } from 'react';
 import primary from '../../results/primary_locked.json';
 import seq from '../../results/sequential.json';
 import power from '../../results/power.json';
@@ -275,7 +275,7 @@ function Peeking() {
 }
 
 function Range({ label, value, min, max, step, onChange, show }) {
-  const id = label.replace(/\W+/g, '-').toLowerCase();
+  const id = useId();
   return (
     <div className="field">
       <label htmlFor={id}>{label} <span>{show}</span></label>
