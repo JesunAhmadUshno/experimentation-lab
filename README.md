@@ -2,6 +2,8 @@
 
 A pre-registered A/B testing and causal inference study on the Upworthy Research Archive.
 
+**Live dashboard:** [jesunahmadushno.github.io/experimentation-lab](https://jesunahmadushno.github.io/experimentation-lab/), with interactive results, a peeking simulator and a power calculator that run in your browser. Source in `site/`; every number is read from `results/` at build time.
+
 ## Problem
 
 Product teams decide from A/B tests every day, and two failure modes are common: tests too small to detect the effects they claim to measure, and observational comparisons (across time, across stories, across audiences) read as if they were randomized. Both failure modes produce confident wrong decisions. This repository measures both, on real randomized data, against a known benchmark.

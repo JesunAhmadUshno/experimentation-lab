@@ -10,3 +10,7 @@ __pycache__/
 
 # OS noise
 .DS_Store
+
+# site build
+site/node_modules/
+site/dist/
