@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "experimentation-lab: question headlines, click-through rate, and whether observational estimates recover a randomized benchmark, a pre-registered study on the Upworthy Research Archive"
+authors:
+  - family-names: Ushno
+    given-names: Jesun Ahmad
+repository-code: "https://github.com/JesunAhmadUshno/experimentation-lab"
+license: Apache-2.0
+date-released: 2026-11-06
+references:
+  - type: dataset
+    title: "The Upworthy Research Archive"
+    authors:
+      - family-names: Matias
+        given-names: J. Nathan
+      - family-names: Munger
+        given-names: Kevin
+      - family-names: Le Quere
+        given-names: Marianne Aubin
+      - family-names: Ebersole
+        given-names: Charles
+    doi: "10.17605/OSF.IO/JD64P"
+    license: CC-BY-4.0
