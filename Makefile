@@ -47,8 +47,10 @@ test:
 pipeline: fetch power guardrails primary-dev causal stress audit-score primary-locked reports
 
 # One-command reproduction (U10): reinstall, rerun the frozen pipeline,
-# regenerate the split lock, and diff every generated report against
-# the committed copies. Any byte difference fails the target.
+# regenerate the split lock, and diff every generated report and every
+# file in results/ against the committed copies (the PNG figure is not
+# compared: it is not guaranteed byte-stable across platforms).
+# Any byte difference fails the target.
 reproduce:
 	$(MAKE) setup
 	cp RESULTS.md /tmp/explab_RESULTS.committed.md
@@ -59,4 +61,5 @@ reproduce:
 	diff /tmp/explab_split.committed.json prereg/split.json
 	diff /tmp/explab_RESULTS.committed.md RESULTS.md
 	diff /tmp/explab_VERDICT.committed.md reports/VERDICT.md
-	@echo "REPRODUCE OK: all generated outputs byte-identical"
+	git diff --exit-code results/
+	@echo "REPRODUCE OK: results/, both reports and the split lock byte-identical"
