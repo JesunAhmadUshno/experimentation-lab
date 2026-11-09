@@ -2,7 +2,11 @@ name: CI
 
 on:
   push:
+    branches: [main]
   pull_request:
+
+permissions:
+  contents: read
 
 jobs:
   test-and-reproduce:
@@ -13,13 +17,17 @@ jobs:
         python-version: ["3.11", "3.12"]
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # tests/test_layout.py reads the lock commit
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install pinned dependencies
         run: pip install -e ".[dev]"
-      - name: Unit tests
+      - name: Unit and layout tests
         run: pytest -q
+      - name: Generated reports regenerate unchanged from the committed results
+        run: python -m explab.report && git diff --exit-code RESULTS.md reports/VERDICT.md
       - name: Reproduction (regenerate and diff all generated outputs)
         run: |
           cp RESULTS.md /tmp/RESULTS.committed.md

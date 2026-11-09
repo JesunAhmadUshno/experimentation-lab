@@ -419,7 +419,7 @@ function Reproduce() {
     ['HYPOTHESES.md', 'Hypotheses', 'Tests and falsification rules'],
     ['METHODS.md', 'Methods', 'Formulas, controls, threats'],
     ['RESULTS.md', 'Results', 'Generated, never hand-edited'],
-    ['AUDIT.md', 'Audit', 'Claims, licence, data, grade'],
+    ['AUDIT.md', 'Audit', 'Claims, data, verdicts, weaknesses'],
     ['docs/related_work.md', 'Related work', 'Prior answers and novelty claim'],
   ];
   return (
