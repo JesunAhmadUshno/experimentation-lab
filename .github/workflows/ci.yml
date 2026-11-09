@@ -16,7 +16,7 @@ jobs:
       matrix:
         python-version: ["3.11", "3.12"]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0  # tests/test_layout.py reads the lock commit
       - uses: actions/setup-python@v5
