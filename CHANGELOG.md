@@ -6,6 +6,11 @@ Versions follow Semantic Versioning; no release is tagged yet.
 ## [Unreleased]
 
 ### Changed
+- 2026-11-08: The reproduction check (CI and `make reproduce`) now also
+  diffs every file in results/ against the committed copies, so a drift
+  in a result JSON or per-test CSV fails even when RESULTS.md is
+  unchanged. The README claim now names exactly what is compared; the
+  PNG figure is regenerated but not compared.
 - 2026-11-08: Adopted the portfolio standard v2. README opens with the
   question, headline, field, job family and verdict (Evaluated), then
   reproduce commands, lifecycle and a layout table. AUDIT.md is the
