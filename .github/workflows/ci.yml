@@ -47,3 +47,6 @@ jobs:
           diff /tmp/split.committed.json prereg/split.json
           diff /tmp/RESULTS.committed.md RESULTS.md
           diff /tmp/VERDICT.committed.md reports/VERDICT.md
+          # results/ (JSON and per-test CSVs) must also regenerate unchanged;
+          # the PNG is left out because it is not guaranteed byte-stable across platforms.
+          git diff --exit-code results/
