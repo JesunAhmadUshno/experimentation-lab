@@ -6,7 +6,7 @@
 
 **Field.** Data analysis. **Job family.** Data science: experimentation and causal inference.
 
-**Verdict.** Evaluated. The plan was locked before any code or data access (prereg/PREREG.md, tag proposal-v1 on 0847c53; Amendment A1 at 38023c3, also before any outcome was read). Tests pass in CI on Python 3.11 and 3.12, and CI re-downloads the hash-verified data, reruns the whole pipeline and diffs every generated result byte for byte. AUDIT.md scores all four hypotheses, two of them refuted. Not v1.0: no second reader has yet re-derived the headline numbers, and no release is tagged.
+**Verdict.** Evaluated. The plan was locked before any code or data access (prereg/PREREG.md, tag proposal-v1 on 0847c53; Amendment A1 at 38023c3, also before any outcome was read). Tests pass in CI on Python 3.11 and 3.12, and CI re-downloads the hash-verified data, reruns the whole pipeline and diffs every file in results/, both generated reports and the split lock byte for byte (the PNG figure is not compared). AUDIT.md scores all four hypotheses, two of them refuted. Not v1.0: no second reader has yet re-derived the headline numbers, and no release is tagged.
 
 **Live dashboard:** [jesunahmadushno.github.io/experimentation-lab](https://jesunahmadushno.github.io/experimentation-lab/), with interactive results, a peeking simulator and a power calculator that run in your browser. Source in `site/`; every number is read from `results/` at build time.
 
@@ -16,7 +16,7 @@
 make reproduce
 ```
 
-Installs pinned dependencies, downloads the exploratory file, verifies its SHA-256, reruns every module, regenerates the split lock, `RESULTS.md`, and `reports/VERDICT.md`, and diffs them against the committed copies. Any byte difference fails.
+Installs pinned dependencies, downloads the exploratory file, verifies its SHA-256, reruns every module, regenerates the split lock, every file in `results/`, `RESULTS.md`, and `reports/VERDICT.md`, and diffs them against the committed copies. Any byte difference fails. The figure `reports/propensity_overlap.png` is regenerated but not compared, because PNG output is not guaranteed byte-stable across platforms.
 
 Checks without the data download:
 
