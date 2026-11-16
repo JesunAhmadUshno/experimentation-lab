@@ -117,3 +117,11 @@ Close a verified gap in the owner's public record (no experimentation or causal 
 ## Data and licence
 
 Data: The Upworthy Research Archive (Matias et al., Scientific Data 2021, DOI 10.1038/s41597-021-00934-7; dataset DOI 10.17605/OSF.IO/JD64P), CC BY 4.0. Only the exploratory file is used; the confirmatory file is never downloaded (see `DECISIONS.md`). Code: Apache-2.0 (see `LICENSE`).
+
+## Paper
+
+Jesun Ahmad Ushno. "Peeking, Pooling, and a Locked Split: A Pre-registered Replication of the Question-Headline Effect on the Upworthy Archive, with an Always-Valid Sequential Testing Module." Preprint, Zenodo, version 2 (2026). CC-BY 4.0.
+
+- Concept DOI: [10.5281/zenodo.24281669](https://doi.org/10.5281/zenodo.24281669)
+- Version 2 DOI: [10.5281/zenodo.24282470](https://doi.org/10.5281/zenodo.24282470)
+- Software DOI for this code (release v1.0.0): [10.5281/zenodo.24282375](https://doi.org/10.5281/zenodo.24282375)

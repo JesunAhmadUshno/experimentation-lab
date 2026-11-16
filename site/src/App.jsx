@@ -70,7 +70,7 @@ function Dock() {
 export default function App() {
   useReveal();
   return (
-    <div className="wrap">
+    <div className="wrap"><a className="skip" href="#top">Skip to content</a>
       <MenuBar />
       <div className="glow" aria-hidden="true" />
       <Hero />
@@ -83,7 +83,7 @@ export default function App() {
       <Dock />
       <footer>
         Data: Upworthy Research Archive (Matias et al., 2021), CC BY 4.0. Code: Apache-2.0. Every number on this page is read from <code>results/</code> at build time; the simulators run in your browser.
-      </footer>
+      <nav className="support" aria-label="Support this work"><a href="https://github.com/sponsors/JesunAhmadUshno">Sponsor this work</a><a href="https://github.com/sponsors/JesunAhmadUshno">Donate</a><a href="https://buymeacoffee.com/jesun">Buy Me a Coffee</a><a href="https://calendly.com/jesunahmadushno/30min">Work with me</a></nav></footer>
     </div>
   );
 }
@@ -91,7 +91,7 @@ export default function App() {
 function Hero() {
   const orDrop = 1 - primary.odds_ratio;
   return (
-    <header className="card hero window" id="top" data-title="experimentation-lab — README">
+    <header className="card hero window" id="top" data-title="experimentation-lab - README">
       <div className="head">
         <p className="eyebrow">Pre-registered study · locked split</p>
         <span className={`pill ${primary.verdict === 'CONFIRMED' ? 'good' : 'warn'}`}>● {primary.verdict}</span>
@@ -133,7 +133,7 @@ function Effect() {
   const bw = Math.max(1, (W - pad.l - pad.r) / rows.length - 0.6);
   const negShare = perTest.filter((t) => t.logor < 0).length / perTest.length;
   return (
-    <section id="effect" className="card window reveal" data-title="forest_plot.svg — 465 tests">
+    <section id="effect" className="card window reveal" data-title="forest_plot.svg - 465 tests">
       <div className="head">
         <div>
           <p className="eyebrow">Primary result</p>
@@ -205,7 +205,7 @@ function Peeking() {
   ];
   const scale = 0.4;
   return (
-    <section id="peeking" className="card window reveal" data-title="peeking_simulator — live">
+    <section id="peeking" className="card window reveal" data-title="peeking_simulator - live">
       <div className="head">
         <div>
           <p className="eyebrow">Live simulation</p>
@@ -341,7 +341,7 @@ function Causal() {
   const x = (v) => l + ((v - lo) / (hi - lo)) * (W - l - r);
   const bal = Object.entries(causal.balance);
   return (
-    <section id="causal" className="card window reveal" data-title="causal_arm.py — IPW · matching">
+    <section id="causal" className="card window reveal" data-title="causal_arm.py - IPW · matching">
       <p className="eyebrow">Causal arm</p>
       <h2>Can observational methods recover a randomized answer? Here, not precisely enough to tell.</h2>
       <p className="sub">
@@ -423,7 +423,7 @@ function Reproduce() {
     ['docs/related_work.md', 'Related work', 'Prior answers and novelty claim'],
   ];
   return (
-    <section id="reproduce" className="card window reveal" data-title="Terminal — make reproduce">
+    <section id="reproduce" className="card window reveal" data-title="Terminal - make reproduce">
       <p className="eyebrow">Reproduce it</p>
       <h2>One command rebuilds every number, byte for byte.</h2>
       <ol className="steps" style={{ marginTop: 16 }}>
