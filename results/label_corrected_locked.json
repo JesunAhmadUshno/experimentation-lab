@@ -1,0 +1,59 @@
+{
+ "amendment": "DECISIONS.md D16 (2026-11-17)",
+ "corrected": {
+  "ci90_log_or": [
+   -0.147,
+   -0.099
+  ],
+  "ci95_log_or": [
+   -0.1516,
+   -0.0944
+  ],
+  "ci95_odds_ratio": [
+   0.8593,
+   0.9099
+  ],
+  "i2_percent": 76.0945,
+  "log_or": -0.123,
+  "n_tests": 720,
+  "odds_ratio": 0.8842,
+  "se": 0.0146,
+  "tau": 0.3253,
+  "tau2": 0.1058,
+  "tests_continuity_corrected": 0,
+  "tests_dropped_negative_nonclicks": 0,
+  "verdict": "CONFIRMED",
+  "verdict_branch": "ci95_excludes_0"
+ },
+ "criterion_source": "results/label_audit_review_notes.json, criterion field, applied verbatim",
+ "frozen_check": {
+  "matches_primary_locked_json": true,
+  "n_tests": 465,
+  "odds_ratio": 0.8645
+ },
+ "frozen_headline": {
+  "ci95_odds_ratio": [
+   0.8335,
+   0.8966
+  ],
+  "n_tests": 465,
+  "odds_ratio": 0.8645,
+  "verdict": "CONFIRMED"
+ },
+ "inter_labeller_agreement": {
+  "agree": 8099,
+  "rate": 0.9974,
+  "total": 8120
+ },
+ "kind": "label-rule sensitivity: locked-split headline recomputed under corrected labels",
+ "labellers": "two independent AI labeller agents plus one AI adjudicator agent (not human reviewers); see DECISIONS.md D16 disclosure",
+ "n_disagreements_adjudicated": 21,
+ "n_packages_locked": 14701,
+ "n_unique_headlines_labelled": 8120,
+ "packages_changed_vs_frozen": 1089,
+ "packages_to_question": 1078,
+ "packages_to_statement": 11,
+ "unique_headlines_changed_vs_frozen": 642,
+ "unique_to_question": 638,
+ "unique_to_statement": 4
+}
