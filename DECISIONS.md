@@ -60,6 +60,11 @@ The first matcher (KD-tree candidates, unstable argsort processing order) produc
 Choice: rewrite the matcher to be deterministic by construction. Logits are rounded to 8 decimals; all within-caliper candidate pairs are ordered by one total order (distance, treated row, control row) and assigned greedily. The estimator class is unchanged (1 to 1 nearest-neighbour matching on the logit propensity, caliper 0.2 SD, without replacement, as frozen in PREREG section 9); only the under-specified ordering mechanics changed.
 Reason: the failure was measured in CI on development-split code, the locked primary does not use matching, and an estimator whose answer depends on the platform's sort internals is not reproducible science. The superseded numbers stay visible in this entry and in git history.
 
+## D13. Portfolio standard v2 adopted (2026-11-08)
+
+Options: (a) rename files into the standard's names (PROPOSAL.md, REPORT.md); (b) keep every file the locked pre-registration names and map each to its role in the README layout table.
+Choice: (b). The standard's own rule is that locked names win: prereg/PREREG.md names DECISIONS.md, RESULTS.md, AUDIT.md, docs/related_work.md, prereg/split.json and reports/propensity_overlap.png, and renaming them would break the lock's references.
+Consequences: prereg/PREREG.md is the proposal, locked at 0847c53 (tag proposal-v1) with Amendment A1 at 38023c3, both before any code or outcome read; tests/test_layout.py pins both versions by SHA-256. AUDIT.md is the report. ROADMAP.md is retired and its text moved verbatim into AUDIT.md, section "Future work"; the references to ROADMAP.md in D8, D11 and RESEARCH.md now resolve there. The build grade left the public repository (grades are internal under the standard); its itemized deductions stay in AUDIT.md as "Known weaknesses", without point values. The tracked src/explab.egg-info/ build output is no longer committed (pip regenerates it on every install).
 ## D13. Gap-closure amendment (2026-11-17): label-rule sensitivity, registered and stopped
 
 Post-registration amendment, registered before any computation under it. The AUDIT.md grade deducts 400 points because the frozen label rule (headline ends with "?") misses non-final questions: audit error 3.0 percent overall, 6 percent in the non-question group, diluting the contrast toward zero.

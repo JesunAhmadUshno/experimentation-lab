@@ -1,5 +1,7 @@
 # Audit
 
+This file is the study's report in the portfolio standard (the locked pre-registration names it, so it keeps its name): scope, data, claims, hypothesis verdicts with misses, known weaknesses and future work. Method detail is in METHODS.md; generated numbers are in RESULTS.md.
+
 Date: 2026-11-06. Scope: the full build of this repository, checked against the AI Platform Research Programme charter's ten gates and the research pack's upgrade list U1 to U10.
 
 ## Security audit
@@ -41,7 +43,7 @@ Date: 2026-11-06. Scope: the full build of this repository, checked against the 
 - U4 data integrity gate: done (results/fetch.json, all checks pass).
 - U5 power and peeking: done (sections 2 and 3 of RESULTS.md).
 - U6 primary analysis: done. One look at the locked split by the frozen script. Verdict CONFIRMED.
-- U7 sequential module: done as designed. mSPRT A/A Type I error 0.00 percent (at most 5 percent required). Caveat in the grade below.
+- U7 sequential module: done as designed. mSPRT A/A Type I error 0.00 percent (at most 5 percent required). Caveat under Known weaknesses below.
 - U8 causal arm: done. Balance target met after adjustment (largest adjusted SMD 0.0529); gaps reported with 2,000-resample cluster bootstrap intervals; overlap plot at reports/propensity_overlap.png.
 - U9 stress tests: done. Placebo 0.0014 (CI -0.0022 to 0.0049); negative control -0.0613 (CI -0.1372 to 0.0146); IPW E-value 1.2754; bias to explain the full IPW gap 0.1010 log odds.
 - U10 one-command reproduction: done. `make reproduce` regenerates the split lock and both generated reports byte-identical; CI runs the same pipeline on Python 3.11 and 3.12.
@@ -53,26 +55,43 @@ Date: 2026-11-06. Scope: the full build of this repository, checked against the 
 - H3 Refuted, by its frozen criterion: both adjusted gap intervals include 0 (IPW gap 0.1010, CI -0.0992 to 0.2978; matching gap 0.1712, CI -0.0531 to 0.4089) and balance was achieved. The point gaps are large and are reported in full; at development-split precision the miss cannot be distinguished from recovery. This is a precision verdict, not evidence that observational recovery works well.
 - H4 Supported. Naive peeking rejects 16.32 percent of null streams (above the 10 percent bar); mSPRT rejects 0.00 percent (at or below 5 percent).
 
-## Grade
+## Known weaknesses
 
-Build grade on the house 10,000 scale: **6,500**. Floored, itemized, nothing rounded up.
+Itemized, most serious first.
 
-- Confirmatory split unused; the headline estimate rests on the exploratory split under self-registration, with the OSF registration still held. Minus 600.
-- The causal arm closes on a precision verdict: its intervals are too wide to settle recovery either way (benchmark rests on 113 dev tests). Minus 500.
-- The frozen label rule misses non-final questions: audit error 3.0 percent overall, 6 percent in the non-question group; 8.1 percent of packages end with "?" while 16.3 percent contain one, so the contrast is diluted toward zero by construction. Minus 400.
-- Heterogeneity is high (tau 0.3325, I squared 75.8 percent) and no moderator analysis was pre-registered, so the pooled mean stands with its spread unexplained. Minus 350.
-- The sentiment covariate is a home-built lexicon of about 120 words (a reproducibility trade-off, DECISIONS.md D9), which weakens causal adjustment. Minus 300.
-- The mSPRT module, at the frozen mixing scale, never rejects at archive arm sizes (Type I 0.00 percent, power 0.00 percent at a 5 percent lift): it meets U7 and H4 as written, but it demonstrates the cost of validity without mapping the trade-off. The tau sensitivity is a Deep item. Minus 300.
-- Eligibility was thinner than the design assumed: 113 of 768 dev tests and 465 of 3,061 locked tests carry both package types, which is what capped the dev components. Minus 250.
-- One dataset, one publisher, 2013 to 2015: external validity is nil by construction and is stated as such. Minus 250.
-- Integrity evidence rests on one balance statistic and on the window form of the problem exclusion, because this file version carries no problem column and few integrity fields. Minus 200.
-- The negative control is not at zero (-0.0613, CI includes 0): headline style features correlate with CTR beyond the studied contrast. Minus 150.
-- Process: one loader bug (mixed datetime formats) and one gitignore scope error were caught and fixed in their own commits before any affected analysis ran; and the first matcher was not deterministic across platforms (KD-tree tie order plus an unstable sort), caught by the CI byte-check across Python 3.11 and 3.12 and replaced with a deterministic matcher (DECISIONS.md D12; the superseded matching numbers, log OR 0.0443 and gap 0.1937 on 3.12 against 0.0385 and 0.1879 on 3.11, stay in that entry). Minus 200.
-
-Total deductions: 3,500. Grade: 10,000 minus 3,500 = 6,500.
+- Confirmatory split unused; the headline estimate rests on the exploratory split under self-registration, with the OSF registration still held.
+- The causal arm closes on a precision verdict: its intervals are too wide to settle recovery either way (benchmark rests on 113 dev tests).
+- The frozen label rule misses non-final questions: audit error 3.0 percent overall, 6 percent in the non-question group; 8.1 percent of packages end with "?" while 16.3 percent contain one, so the contrast is diluted toward zero by construction.
+- Heterogeneity is high (tau 0.3325, I squared 75.8 percent) and no moderator analysis was pre-registered, so the pooled mean stands with its spread unexplained.
+- The sentiment covariate is a home-built lexicon of about 120 words (a reproducibility trade-off, DECISIONS.md D9), which weakens causal adjustment.
+- The mSPRT module, at the frozen mixing scale, never rejects at archive arm sizes (Type I 0.00 percent, power 0.00 percent at a 5 percent lift): it meets U7 and H4 as written, but it demonstrates the cost of validity without mapping the trade-off. The tau sensitivity is a Deep item.
+- Eligibility was thinner than the design assumed: 113 of 768 dev tests and 465 of 3,061 locked tests carry both package types, which is what capped the dev components.
+- One dataset, one publisher, 2013 to 2015: external validity is nil by construction and is stated as such.
+- Integrity evidence rests on one balance statistic and on the window form of the problem exclusion, because this file version carries no problem column and few integrity fields.
+- The negative control is not at zero (-0.0613, CI includes 0): headline style features correlate with CTR beyond the studied contrast.
+- Process: one loader bug (mixed datetime formats) and one gitignore scope error were caught and fixed in their own commits before any affected analysis ran; and the first matcher was not deterministic across platforms (KD-tree tie order plus an unstable sort), caught by the CI byte-check across Python 3.11 and 3.12 and replaced with a deterministic matcher (DECISIONS.md D12; the superseded matching numbers, log OR 0.0443 and gap 0.1937 on 3.12 against 0.0385 and 0.1879 on 3.11, stay in that entry).
 
 ## Held items (untouched, confirmed)
 
 - U1 email to the archive team: not sent. Awaiting the owner's tap.
 - OSF registration of the pre-registration: not created. Awaiting the owner's account action.
 - Confirmatory data file: never downloaded, never read.
+
+## Future work (moved from ROADMAP.md on 2026-11-08)
+
+What remains, in evidence order. Items that need the study owner's tap or account are marked HELD and are not started.
+
+### Deep pass
+
+1. Confirmatory run under the archive's registered-report protocol (HELD: starts with the U1 email to the archive team, owner's tap; then a Stage 1 protocol submission). The frozen estimator and verdict rule port unchanged; the confirmatory file is touched only inside that protocol.
+2. OSF registration of the pre-registration hash (HELD: owner account action). Closes the U3 gap between self-registration and a timestamped public registry.
+3. Sequential module sensitivity: Type I and power across mSPRT mixing scales (tau_mix from 0.0005 to 0.01) and larger look horizons, on the same seeded streams, so the module maps the validity-versus-power trade-off instead of reporting one conservative point.
+4. Moderator analysis for the heterogeneity (tau 0.3325, I squared 75.8 percent), pre-registered as its own amendment before any locked-split re-use: pool by packages per test and by test baseline CTR band, with the multiple-look cost stated. Until then the locked split is not re-analysed.
+5. Causal-arm precision: the same arm on a larger development share is not available (the split is locked), so the route is a second dataset (item 7) or the confirmatory protocol (item 1). A validated sentiment lexicon (version pinned and hashed) replaces the built-in list as a sensitivity analysis.
+6. Labelling sensitivity: re-run the primary estimator with two wider question definitions (a question mark anywhere in the headline; interrogative first sentence), reported beside the frozen rule, never instead of it. The audit says the frozen rule's dilution is the single largest measurement deduction.
+7. Second-dataset replication: one more public experiment archive with within-test randomization, to test whether the observational gap and the peeking inflation travel.
+
+### Not planned
+
+- User-level analyses. The archive has no user-level data, and none will be simulated as if it did.
+- Any claim about current platforms. A 2013 to 2015 advocacy archive cannot carry one.

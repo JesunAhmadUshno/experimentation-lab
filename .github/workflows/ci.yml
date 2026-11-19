@@ -2,7 +2,11 @@ name: CI
 
 on:
   push:
+    branches: [main]
   pull_request:
+
+permissions:
+  contents: read
 
 jobs:
   test-and-reproduce:
@@ -12,14 +16,18 @@ jobs:
       matrix:
         python-version: ["3.11", "3.12"]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0  # tests/test_layout.py reads the lock commit
+      - uses: actions/setup-python@v7
         with:
           python-version: ${{ matrix.python-version }}
       - name: Install pinned dependencies
         run: pip install -e ".[dev]"
-      - name: Unit tests
+      - name: Unit and layout tests
         run: pytest -q
+      - name: Generated reports regenerate unchanged from the committed results
+        run: python -m explab.report && git diff --exit-code RESULTS.md reports/VERDICT.md
       - name: Reproduction (regenerate and diff all generated outputs)
         run: |
           cp RESULTS.md /tmp/RESULTS.committed.md
@@ -39,3 +47,6 @@ jobs:
           diff /tmp/split.committed.json prereg/split.json
           diff /tmp/RESULTS.committed.md RESULTS.md
           diff /tmp/VERDICT.committed.md reports/VERDICT.md
+          # results/ (JSON and per-test CSVs) must also regenerate unchanged;
+          # the PNG is left out because it is not guaranteed byte-stable across platforms.
+          git diff --exit-code results/
